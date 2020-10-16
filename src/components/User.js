@@ -46,10 +46,10 @@ export default class User extends Component {
         }
         else {
             return (
-                <div class="card">
+                <div className="card">
                     <img src={info.avatar_url} alt={info.login} style={styleWidth}/>
                     <h1>{info.name}</h1>
-                    <p class="repos">{info.public_repos} Public Repos</p>
+                    <p className="repos">{info.public_repos} Public Repos</p>
                     <p>{info.location}</p>
                     <p><a href={info.html_url}><button onClick={this.sayHello}>Find me on Github</button></a></p>
                 </div>
