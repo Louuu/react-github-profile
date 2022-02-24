@@ -32,7 +32,7 @@ export default function App() {
 
     return(
         <div className="bg-gradient-to-br from-blue-400 to-blue-800 h-screen overflow-scroll">
-            <div className="container m-auto p-4 flex items-center justify-center flex-col space-x-4 space-y-4">
+            <div className="container m-auto p-4 flex items-center justify-center flex-col space-y-4">
                 <SearchBar username={username} setUsername={setUsername} queryApi={queryApi}/>
                 {
                     loading ? <Message content="Loading"/> : 
