@@ -28,7 +28,7 @@ export default function App() {
 
     useEffect(() => {
         queryApi()
-    }, [queryApi])
+    }, [])
 
     return(
         <div className="bg-gradient-to-br from-blue-400 to-blue-800 h-screen overflow-scroll">
